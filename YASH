@@ -1,0 +1,12 @@
+create table student_d(s_no number(10),s_name varchar(20),s_school varchar(30),s_hobby varchar(20),s_std number(20),s_gender varchar(10));
+insert into student_d values(1,'john','hbk','chess',10,'male');
+insert into student_d values(2,'robert','mkhs','null',12,'male');
+insert into student_d values(3,'david','harwad','csino',9,'male');
+insert into student_d values(4,'betty','hk','poker',11,'male');
+insert into student_d values(5,'jenny','sankalp','gameing',12,'female');
+insert into student_d values(6,'luci','sp','null',10,'male');
+insert into student_d values(7,'lara','pd','cricket',11,'female');
+insert into student_d values(8,'jack','pdpu','hocky',12,'male');
+insert into student_d values(9,'oggy','sou','tenish',9,'male');
+insert into student_d values(10,'jolly','null','bicker',12,'female');
+select * from student_d;
