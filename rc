@@ -1,0 +1,13 @@
+create table emp2 (e_id number (4),e_name varchar (8),e_salary number (9));
+insert into emp2 values (1,'abc',5000);
+insert into emp2 values (2,'pqr',6000);
+insert into emp2 values (3,'xyz',10000);
+select* from emp2;
+
+
+
+create table emp1 (e_id number (4),e_name varchar (8),e_salary number (9));
+insert into emp1 values (3,'mpq',5000);
+insert into emp1 values (5,'pqr',6000);
+insert into emp1 values (6,'efg',1000);
+select* from emp1;
